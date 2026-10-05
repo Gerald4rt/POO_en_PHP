@@ -9,10 +9,10 @@
 
     <?php
 
-    $Servidor = "Localhost";
-    $Usuario = "root";
-    $Contraseña = "";
-    $BDD = "EJEMPLO";
+    $Servidor = "estudiante-poo-en-php.g.aivencloud.com";
+    $Usuario = "avnadmin";
+    $Contraseña = "AVNS_dK-48RnwchM-KPGPr77";
+    $BDD = "defaultdb";
 
     $CONEXION = mysqli_connect($Servidor, $Usuario, $Contraseña, $BDD);
 
