@@ -13,8 +13,9 @@
     $Usuario = "avnadmin";
     $Contraseña = "AVNS_dK-48RnwchM-KPGPr77";
     $BDD = "defaultdb";
+    $Puerto = "21150";
 
-    $CONEXION = mysqli_connect($Servidor, $Usuario, $Contraseña, $BDD);
+    $CONEXION = mysqli_connect($Servidor, $Usuario, $Contraseña, $BDD, $Puerto);
 
     if (!$CONEXION) {
         die ("Error de conexion: " . mysqli_connect_error());
